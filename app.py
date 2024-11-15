@@ -8,6 +8,7 @@ import numpy as np
 import plotly.graph_objects as go
 import streamlit as st
 import pickle
+import openpyxl
 
 # Load Etherum price data from pickle file
 with open("data.pkl", "rb") as f:
