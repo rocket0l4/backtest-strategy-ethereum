@@ -1,4 +1,9 @@
 import pandas as pd
+import numpy as np
+import plotly.graph_objects as go
+import streamlit as st
+import pickle
+import openpyxl
 # Load your data and save it as a pickle file
 data = pd.read_excel("etherum_data.xlsx", parse_dates=['Date'])
 data.to_pickle("data.pkl")
